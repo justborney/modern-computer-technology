@@ -1,0 +1,26 @@
+@import "./base.css";
+
+#app {
+  padding: 0 2rem;
+  height: 100vh;
+  width: 100%;
+  font-weight: normal;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 0.8);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .nav-button:hover {
+    color: hsla(160, 100%, 37%, 1);
+  }
+}
+
+body {
+  display: flex;
+  place-items: center;
+}
